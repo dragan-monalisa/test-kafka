@@ -20,7 +20,8 @@ class TopicConfiguration {
     }
 
     @Bean
-    NewTopic jsonTopic() {        return new NewTopic(jsonTopicName, 1, (short) 1);
+    NewTopic jsonTopic() {
+        return new NewTopic(jsonTopicName, 1, (short) 1);
     }
 
 }
