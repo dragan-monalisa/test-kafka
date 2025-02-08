@@ -13,7 +13,7 @@ import java.util.Date;
 @AllArgsConstructor
 public class DataModel {
 
-    private Integer x;
+    private int x;
     private double y;
     private boolean z;
     private Date date;
